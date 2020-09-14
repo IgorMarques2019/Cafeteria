@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+.error {
+    height:100%;
+    width:100%;
+    background-image:url();
+}
+
+#menu {
+    min-width:1280px;
+    width: 100%;
+    background-color: #373737;
+}
+
+#menu #menu-size .logo {
+    float: left;
+}
+
+#menu h2 {
+    line-height: 50px;
+    color: white;
+}
+
+#menu-size {
+    height: 50px;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#menu #menu-size #list-menu {
+    height: 50px;
+    float: right;
+}
+
+#menu #menu-size #list-menu ul {
+    display: block;
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu #menu-size #list-menu ul li {
+    display: inline-block;
+}
+
+#menu #menu-size #list-menu ul li a {
+    padding: 10px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #A8A8A8;
+}
+
+#menu #menu-size #list-menu ul li a:hover {
+    background-color: #C4C4C4;
+    color: #373737;
+}
+
+#home #menu #menu-size #list-menu .home a, #shop #menu #menu-size #list-menu .shop a {
+    background-color: #C4C4C4;
+    color: #373737;
+}
+
+/******************** fim do menu ****************/
+
+#services-name {
+    min-width:1280px;
+    width: 1280px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #D7D7D7;
+}
+
+#services-name h2 {
+    color: #404040;
+    font-weight: normal;
+    text-align: center;
+    line-height: 100px;
+    font-size: 1.5em;
+}
+
+/******************** fim do services ****************/
+
+#infos {
+    min-width:1280px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0 auto;
+    width: 1280px;
+    background-color: #F1EBEB;
+}
+
+.info-produto {
+    float: left;
+    width: 960px;
+}
+
+.produtos {
+    margin-bottom:20px;
+    box-shadow: 0px 0px 2px #373737;
+    background-color: rgb(255, 255, 255);
+}
+
+.info-produto .produto-img img {
+    width: 960px;
+    border-bottom: 4px solid #c4ff64;
+}
+
+.produto-descriptions {
+    padding: 20px;
+}
+
+.produto-descriptions h2, p {
+    padding: 10px 0px;
+    font-weight: normal;
+    color: 5C5C5C;
+}
+
+.produto-descriptions p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+/******************** fim do produto ****************/
+.menu-lateral {
+    padding:10px 5px;
+    margin-bottom:10px;
+ background-color:white;
+    float:right;
+    width:280px;
+}
+.menu-lateral ul {
+  color: #404040;
+  list-style-position: inside;
+}
+.menu-lateral ul li {
+ margin:5px;
+ 
+}
+.menu-lateral ul li a{
+   
+    
+text-decoration: none;
+color: #373737;
+font-size:0.9em;
+}
+.menu-lateral h2 {
+    font-weight:normal;
+    text-align: center;
+    font-size:1em;
+    padding:5px;
+    background-color: #A8A8A8;
+    color: #2b2b2b;
+}
+
+.rodape {
+    clear: both;
+    padding:20px;
+    background-color: #A8A8A8;
+    font-size:1em;
+    text-align: center;
+}
+
+
